@@ -6,6 +6,8 @@ let myName = "Nikhil"
 
 let myName2 = myName; //Copying
 
+
+
 console.log(myName2)
 
 myName2 = "Nishu";
