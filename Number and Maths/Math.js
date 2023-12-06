@@ -42,7 +42,9 @@ console.log("Tangent of 30 degrees:", Math.tan(Math.PI / 6)); // Output: Tangent
 console.log("Natural log of 10:", Math.log(10)); // Output: Natural log of 10: 2.302585092994046
 console.log("Exponential of 2:", Math.exp(2)); // Output: Exponential of 2: 7.38905609893065
 
+//Math.Random
 
+console.log(`The random values b/w 1 to 100 is   ${Math.floor((Math.random())*100)}`);
 
 
 
