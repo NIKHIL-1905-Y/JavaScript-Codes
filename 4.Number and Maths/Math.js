@@ -46,8 +46,17 @@ console.log("Exponential of 2:", Math.exp(2)); // Output: Exponential of 2: 7.38
 
 console.log(`The random values b/w 1 to 100 is   ${Math.floor((Math.random())*100)}`);
 
+//Random values b/w two numbers
 
 
+
+ function RandomBetween(min,max) {
+    const val = Math.floor(Math.random() * (max - min + 1)) + min;
+    console.log(val);
+    
+}
+RandomBetween(80,90)
+ 
 
 
 
